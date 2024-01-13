@@ -1,3 +1,35 @@
-body{
-    background-color: red;
+#title{
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 80px;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+
+#btn-row{
+    display: flex;
+    flex-direction: row;
+}
+
+#app-btn{
+    display: flex;
+    gap: 8px;
+}
+
+#app-btn button{
+    border: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+}
+
+#app-btn button:hover{
+    background-color: #B14D01;
+    color: white;
 }

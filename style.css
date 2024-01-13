@@ -1,3 +1,14 @@
+#title-box{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    justify-content: center;
+}
+
+#title-box i{
+    font-size: 80px;
+}
+
 #title{
     font-family: sans-serif;
     text-align: center;
@@ -14,7 +25,6 @@
 
 #btn-row{
     display: flex;
-    flex-direction: row;
 }
 
 #app-btn{
@@ -23,7 +33,7 @@
 }
 
 #app-btn button{
-    border: none;
+    border: 1px solid #10CCFA;
     padding: 20px;
     font-size: 24px;
     border-radius: 8px;
@@ -32,4 +42,5 @@
 #app-btn button:hover{
     background-color: #B14D01;
     color: white;
+    cursor: pointer;
 }

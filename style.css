@@ -26,11 +26,15 @@
 
 #btn-row{
     display: flex;
+    flex-direction: column;
+    width: fit-content;
+    row-gap: 10px ;
 }
 
 #app-btn{
     display: flex;
     gap: 8px;
+    justify-content: center;
 }
 
 #app-btn button{

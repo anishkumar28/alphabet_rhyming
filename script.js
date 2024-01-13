@@ -14,7 +14,7 @@ function speak(letter){
     else if(letter == "k") audio.src="sound/kites.mp3";
     else if(letter == "l") audio.src="sound/lion.mp3";
     else if(letter == "m") audio.src="sound/monkey.mp3";
-        audio.play();
+    audio.play();
    
 }
 
